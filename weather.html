@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="today">
+            <div class="left">
+                <div class="search">
+                    <input type="text" class="searchbar" placeholder="Search city">
+                    <button id="searchBtn"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z">
+                            </path>
+                        </svg></button>
+                </div>
+                <div class="weather" id="weather">
+                    <!-- <h1 class="city" id="city"></h1>
+                    <h4 class="datetime" id="datetime"></h4>
+                    <div class="details">
+                        <img src="" alt="" class="icon">
+                        <div class="description" id="description"></div>
+                    </div>
+                    <div class="humidity" id="humidity"></div>
+                    <div class="wind" id="wind"></div> -->
+                </div>
+            </div>
+            <div class="temp" id="temp">
+                <!-- <div class="current_temp"></div>
+                <div class="range"></div> -->
+            </div>
+            <div class="menu">
+                <button id="menuBtn">Menu</button>
+                <div class="period">
+                    <button id="hourlyBtn">Hourly</button><button id="dailyBtn">Daily</button>
+                </div>
+            </div>
+        </div>
+        <div class="forecast" id="forecast">
+            <div class="days">
+                <div class="day" id="day1"></div>
+                <img src="" alt="" id="icon7">
+                <div class="low-high" id="low-high7"></div>
+            </div>
+            <div class="days">
+                <div class="day" id="day2"></div>
+                <img src="" alt="" id="icon15">
+                <div class="low-high" id="low-high15"></div>
+            </div>
+            <div class="days">
+                <div class="day" id="day3"></div>
+                <img src="" alt="" id="icon23">
+                <div class="low-high" id="low-high23"></div>
+            </div>
+            <div class="days">
+                <div class="day" id="day4"></div>
+                <img src="" alt="" id="icon31">
+                <div class="low-high" id="low-high31"></div>
+            </div>
+            <div class="days">
+                <div class="day" id="day5"></div>
+                <img src="" alt="" id="icon39">
+                <div class="low-high" id="low-high39"></div>
+            </div>
+        </div>
+        <div class="hour-forecast" id="hour-forecast">
+            <div class="hours">
+                <div class="hour" id="hour1">Now</div>
+                <img src="" alt="" id="hicon1">
+                <div class="htemp" id="htemp1"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour2"></div>
+                <img src="" alt="" id="hicon2">
+                <div class="htemp" id="htemp2"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour3"></div>
+                <img src="" alt="" id="hicon3">
+                <div class="htemp" id="htemp3"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour4"></div>
+                <img src="" alt="" id="hicon4">
+                <div class="htemp" id="htemp4"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour5"></div>
+                <img src="" alt="" id="hicon5">
+                <div class="htemp" id="htemp5"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour6"></div>
+                <img src="" alt="" id="hicon6">
+                <div class="htemp" id="htemp6"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour7"></div>
+                <img src="" alt="" id="hicon7">
+                <div class="htemp" id="htemp7"></div>
+            </div>
+            <div class="hours">
+                <div class="hour" id="hour8"></div>
+                <img src="" alt="" id="hicon8">
+                <div class="htemp" id="htemp8"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
