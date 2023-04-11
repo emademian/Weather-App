@@ -1,10 +1,10 @@
-let datetime;
+const apiKey = "36436c95061ae098cf6936fb4e6899cb";
+
 let city = document.getElementById("city");
 let currentWeather = document.getElementById("weather");
 let temperature = document.getElementById("temp");
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
-const apiKey = "36436c95061ae098cf6936fb4e6899cb";
+let datetime = days[new Date().getDay()] + ', ' + new Date().toLocaleString('en-US', { hour: '2-digit', minute: '2-digit' });
 
 
 // function used to display a clock that updates in real-time 
