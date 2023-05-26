@@ -1,4 +1,4 @@
-# Weather Application for Accesa Internship 
+# Weather Application
 
 <h3>Here you can find a weather application developed with HTML, CSS and JavaScript.
 <br></h3>
